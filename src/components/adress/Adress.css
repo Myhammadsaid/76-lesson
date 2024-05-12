@@ -1,0 +1,55 @@
+.adress {
+  margin-bottom: 100px;
+}
+
+.adress-title {
+  color: #3d3d3d;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 36px;
+}
+
+.adress-title span {
+  font-weight: 700;
+  color: #000;
+}
+
+.adress-title2 {
+  color: #3d3d3d;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 21px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 22px;
+}
+
+.inputs {
+  display: flex;
+  gap: 22px;
+}
+
+.inputs input {
+  width: 350px;
+  height: 40px;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: 1px solid #eaeaea;
+}
+
+.adress-btn {
+  width: 150px;
+  height: 30px;
+}
+
+@media (max-width: 760px) {
+  .inputs {
+    flex-wrap: wrap;
+  }
+}
